@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using MultiMonitorPlatform.Core;
 
 namespace MultiMonitorPlatform.Automation
 {
@@ -269,6 +270,4 @@ namespace MultiMonitorPlatform.Automation
             Logger.Info($"[Notification] {title}: {body}");
     }
 
-    // Re-export core types so automation namespace can use them
-    using Core;
 }
